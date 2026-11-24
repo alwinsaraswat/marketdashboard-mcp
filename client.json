@@ -1,0 +1,18 @@
+{
+  "client_id": "https://alwinsaraswat.github.io/marketdashboard-mcp/client.json",
+  "client_name": "Alwin MarketDashboard TradingView Adapter",
+  "client_uri": "https://alwinsaraswat.github.io/marketdashboard-mcp/",
+  "redirect_uris": [
+    "http://localhost:*/callback",
+    "http://127.0.0.1:*/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "mcp:read mcp:tools"
+}
